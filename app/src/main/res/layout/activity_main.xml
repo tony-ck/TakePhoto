@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.testapp.MainActivity">
+
+    <Button
+        android:id="@+id/btn_takePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/take_photo"
+        android:layout_marginRight="262dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="447dp" />
+
+    <ImageView
+        android:id="@+id/imv_picture"
+        android:layout_width="412dp"
+        android:layout_height="367dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="-4dp" />
+
+    <Button
+        android:id="@+id/btn_cheeseAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ChoosePhoto"
+        tools:layout_editor_absoluteY="455dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <Button
+        android:id="@+id/btn_blueTooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start_BlueTooth"
+        app:layout_constraintRight_toLeftOf="parent"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginRight="-368dp" />
+</android.support.constraint.ConstraintLayout>
